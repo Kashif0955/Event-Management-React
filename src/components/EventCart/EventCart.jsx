@@ -3,7 +3,6 @@ import './Eventcart.css';
 import { Link } from 'react-router-dom';
 
 const EventCart = ({ id, date, heading, location, img }) => {
-  // Destructure year and month from the date object
   const { year, month } = date;
 
   return (

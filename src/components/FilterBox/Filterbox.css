@@ -1,39 +1,35 @@
-/* Global styles for filter card */
 .filter-card {
-  width: 90%; /* Adjust width for responsiveness */
-  max-width: 500px; /* Limit maximum width */
-  height: auto; /* Allow height to adjust based on content */
+  width: 90%;
+  max-width: 500px;
+  height: auto;
   background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   border-radius: 12px;
-  padding: 24px; /* Adjust padding */
-  margin: 100px auto 40px auto; /* Adjusted margin for larger screens */
+  padding: 24px;
+  margin: 100px auto 40px auto;
   border: 1px solid var(--primary-color);
-  visibility: visible; /* Ensure visibility */
-  opacity: 1; /* Ensure full opacity */
+  visibility: visible;
+  opacity: 1;
 }
 
-/* Wrapper adjustments */
 .wrapper {
   width: 100%;
-  height: auto; /* Adjust height based on content */
+  height: auto;
   padding: 2px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-/* Form styling */
 .filter-card form {
   display: flex;
-  flex-direction: column; /* Stack form elements vertically */
-  align-items: stretch; /* Stretch form elements to fill the card width */
+  flex-direction: column;
+  align-items: stretch;
 }
 
-/* Font size adjustments for labels and selects */
 .month label {
   font-size: 16px !important;
 }
@@ -42,7 +38,6 @@
   font-size: 16px !important;
 }
 
-/* Button styling */
 .filter-card button {
   padding: 12px 28px;
   border-style: none;
@@ -55,93 +50,89 @@
   background-color: rgb(9, 140, 16);
 }
 
-/* Media Query for tablets and smaller screens */
 @media (max-width: 768px) {
   .filter-card {
-    padding: 16px; /* Adjust padding */
-    margin: 60px auto; /* Adjust margin for tablets */
-    width: 95%; /* Increase width for better fit */
+    padding: 16px;
+    margin: 60px auto;
+    width: 95%;
   }
 
   .wrapper {
-    width: 100%; /* Full width for wrapper */
-    padding: 10px; /* Adjust padding */
+    width: 100%;
+    padding: 10px;
   }
 
   .filter-card form {
-    flex-direction: column; /* Stack form elements vertically */
-    align-items: stretch; /* Stretch form elements to fill the card width */
+    flex-direction: column;
+    align-items: stretch;
   }
 
   .month label, .month select {
-    font-size: 14px !important; /* Adjust font size for smaller screens */
+    font-size: 14px !important;
   }
 
   .filter-card button {
-    padding: 10px 20px; /* Adjust button padding */
-    font-size: 14px; /* Adjust button font size */
+    padding: 10px 20px;
+    font-size: 14px;
   }
 }
 
-/* Media Query for extra-small screens (500px and below) */
 @media (max-width: 500px) {
   .filter-card {
-    padding: 12px; /* Adjust padding */
-    margin: 40px auto; /* Adjust margin to ensure visibility and spacing */
-    width: 100%; /* Full width for extra-small screens */
-    visibility: visible; /* Ensure the card is visible */
-    opacity: 1; /* Ensure full opacity */
+    padding: 12px;
+    margin: 40px auto;
+    width: 100%;
+    visibility: visible;
+    opacity: 1;
   }
 
   .wrapper {
-    width: 100%; /* Full width for wrapper */
-    padding: 12px; /* Adjust padding */
+    width: 100%;
+    padding: 12px;
   }
 
   .filter-card form {
-    flex-direction: column; /* Stack form elements vertically */
-    align-items: stretch; /* Stretch form elements to fill the card width */
+    flex-direction: column;
+    align-items: stretch;
   }
 
   .month label, .month select {
-    font-size: 12px !important; /* Adjust font size for extra-small screens */
+    font-size: 12px !important;
   }
 
   .filter-card button {
-    padding: 8px 16px; /* Adjust button padding */
-    font-size: 12px; /* Adjust button font size */
+    padding: 8px 16px;
+    font-size: 12px;
   }
 }
-
-/* Media Query for ultra-small screens (400px and below) */
+/* media qyery for extra small screen devices */
 @media (max-width: 400px) {
   .filter-card {
-    padding: 12px; /* Adjust padding */
-    margin: 130px auto; /* Add more margin-top for ultra-small screens */
-    width: 80%; /* Full width for ultra-small screens */
+    padding: 12px;
+    margin: 130px auto;
+    width: 80%;
   }
 
   .wrapper {
-    width: 100%; /* Full width for wrapper */
-    padding: 8px; /* Adjust padding */
+    width: 100%;
+    padding: 8px;
   }
 
   .filter-card form {
-    flex-direction: column; /* Stack form elements vertically */
-    align-items: stretch; /* Stretch form elements to fill the card width */
+    flex-direction: column;
+    align-items: stretch;
   }
 
   .month label, .month select {
-    font-size: 10px !important; /* Adjust font size for ultra-small screens */
+    font-size: 10px !important;
   }
 
   .filter-card button {
-    padding: 6px 12px; /* Adjust button padding */
-    font-size: 10px; /* Adjust button font size */
+    padding: 6px 12px;
+    font-size: 10px;
   }
 }
 
-/* Ensure no overflow issues on smaller screens */
 body {
-  overflow-x: hidden; /* Prevent horizontal scroll */
+  overflow-x: hidden;
 }
