@@ -1,0 +1,18 @@
+.event-search {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; /* Add spacing between each cart */
+}
+p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+  /* border:  1px solid rgb(9, 140, 16);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: inset; */
+}
