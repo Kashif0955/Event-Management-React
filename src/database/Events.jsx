@@ -45,7 +45,7 @@ export const eventList = [
     "date": { "year": 2024, "month": "June" },
     "location": "Karachi, Pakistan",
     "description": "Indulge in the culinary delights of the Karachi Eat Festival. Sample a variety of dishes from local and international cuisines, enjoy live performances, and experience the vibrant food culture of Karachi.",
-    "img": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDl8fGZvb2R8ZW58MHx8fHwxNjg4NTYzMjIz&ixlib=rb-4.0.3&q=80&w=400"
+    "img": "https://hungryinkarachi.com/wp-content/uploads/2023/01/sweet-greens-nachos-e1672730954610-962x1080.webp"
   },
   {
     "id": 7,

@@ -1,13 +1,13 @@
-import React from 'react'
-import "./Eventcart.css"
+import React from 'react';
+import './Eventcart.css';
 import { Link } from 'react-router-dom';
 
 const EventCart = ({ id, date, heading, location, img }) => {
-
+  // Destructure year and month from the date object
   const { year, month } = date;
 
   return (
-    <Link to={`events/${id}`}>
+    <Link to={`/events/${id}`} className="card-link">
       <div className="card">
         <div className="card-content">
           <h3>{heading}</h3>
@@ -19,11 +19,11 @@ const EventCart = ({ id, date, heading, location, img }) => {
         </div>
 
         <div className="card-img-wrapper">
-          <img src={img} alt="image not found" />
+          <img src={img} alt="Event" />
         </div>
       </div>
     </Link>
-  )
-}
+  );
+};
 
-export default EventCart
+export default EventCart;

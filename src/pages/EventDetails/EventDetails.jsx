@@ -3,12 +3,13 @@ import { eventList } from '../../database/Events'
 import { MdCalendarMonth } from "react-icons/md";
 import { IoLocationSharp } from "react-icons/io5"
 import './Eventdetails.css'
+
 const EventDetails = () => {
-  const { id } = useParams()
+  const {id}=useParams()
   const numId = Number(id)
 
   const filteredEvent = eventList.find(
-    eventDetail => eventDetail.id === numId)
+    eventDetail=>eventDetail.id===numId)
 
   return (
     <div className="event-details-container">
